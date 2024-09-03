@@ -1,7 +1,7 @@
 ### Crawler
 
 Given website http://chals.secedu.site:4999
-![alt text](https://github.com/alexbravo17/SecEduCTF2024Writeup/tree/main/images/crawler1.png)
+![alt text](https://github.com/alexbravo17/SecEduCTF2024Writeup/blob/main/images/crawler1.png)
 
 Let's try to web fuzz using `wfuzz`
 
@@ -15,7 +15,7 @@ I give up, a teammate (thanks medley in UQ Cyber Squad!!!) found the file which 
 
 Quick look shows a bunch of .txt web files. Let's fuzz again to find which one gives status code 200
 
-![alt text](https://github.com/alexbravo17/SecEduCTF2024Writeup/tree/main/images/crawler2.png)
+![alt text](https://github.com/alexbravo17/SecEduCTF2024Writeup/blob/main/images/crawler2.png)
 
 Scrape, cut and clean the filenames to make a wordlist
 
