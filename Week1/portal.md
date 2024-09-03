@@ -9,7 +9,7 @@ The approach is pretty nooby, since I forgot how to do buffer overflow
 printf the protect and admin values, try lengths of input until the values change
 Then, retain value of protect and change admin
 
-Offset is 10, next byte should be \0, then A then any byte other than 0
+Offset is 10, next byte should be `\0`, then `A` then any byte other than 0
 Make sure the 10 filler is not A, since chal.c checks for that
 I used username but password may also work, for this I sent nothing to password
 

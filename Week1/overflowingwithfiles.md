@@ -2,9 +2,9 @@
 
 Given chal, which is an ELF
 run `readelf -s chal`, I'm looking for vulnerable functions in dynamic library or maybe some user-defined functions
-There is gets function, so this is another buffer overflow problem.
+There is `gets()` function, so this is another buffer overflow problem.
 
-Setup another pwned2.py, with same code structure as portal
+Setup another `pwned2.py`, with same code structure as portal
 
 Run the ELF, how nice that they give the address we need to give to rip (return instruction pointer), so in pwntools, read the input prompt, extract that hex address and put in into a payload
 
@@ -12,7 +12,7 @@ This time, I use `pwn cyclic 400` to generate a cyclic text, then run it in gdb 
 
 Some manouvering with hex address and endianness, voila.
 
-SECEDU{h0w_c4n_u_0v3rfl0w_with_0n3_f1le?}
+**SECEDU{h0w_c4n_u_0v3rfl0w_with_0n3_f1le?}**
 ```
 from pwn import *
 

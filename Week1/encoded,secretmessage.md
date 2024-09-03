@@ -19,4 +19,4 @@ This seems like a deadend, not sure so lets look at hint.
 
 Hint: ROT seems like a common cipher used
 
-Using cyberchef, ROT-8000 got flag **SECEDU{enc0ding_m4st3r_0r_s0m3th1ng}**
+Using cyberchef, `ROT-8000` got flag **SECEDU{enc0ding_m4st3r_0r_s0m3th1ng}**
