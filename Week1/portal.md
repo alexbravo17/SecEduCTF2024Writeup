@@ -1,4 +1,5 @@
 ### Portal
+![Question](https://github.com/alexbravo17/SecEduCTF2024Writeup/blob/main/Week1/images/portalq.png)
 
 Given chal.c
 

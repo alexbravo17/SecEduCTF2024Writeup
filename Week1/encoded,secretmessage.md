@@ -1,4 +1,5 @@
 ### Encoded, secret message?
+![Question](https://github.com/alexbravo17/SecEduCTF2024Writeup/blob/main/Week1/images/encodedsecretmessageq.png)
 
 Given Ciphertext
 > 籜籎籌籎籍籞粄籮籷籬簹籭籲籷籰籨籶簽籼籽簼类籨簹类籨籼簹籶簼籽籱簺籷籰粆

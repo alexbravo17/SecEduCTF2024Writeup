@@ -1,8 +1,10 @@
 ### Overflowing with files
+![Question](https://github.com/alexbravo17/SecEduCTF2024Writeup/blob/main/Week1/images/overflowingwithfilesq.png)
 
 Given chal, which is an ELF
 run `readelf -s chal`, I'm looking for vulnerable functions in dynamic library or maybe some user-defined functions
 There is `gets()` function, so this is another buffer overflow problem.
+![readelf](https://github.com/alexbravo17/SecEduCTF2024Writeup/blob/main/Week1/images/overflowingwithfiles.png)
 
 Setup another `pwned2.py`, with same code structure as portal
 
