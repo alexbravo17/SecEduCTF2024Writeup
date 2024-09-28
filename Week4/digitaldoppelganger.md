@@ -1,12 +1,13 @@
 ### digital_doppelganger
 
 Given website http://chals.secedu.site:5016 and image
+
 ![Question](https://github.com/alexbravo17/SecEduCTF2024Writeup/blob/main/Week4/images/digitaldoppelganger.png)
 ![Image in question](https://github.com/alexbravo17/SecEduCTF2024Writeup/blob/main/Week4/resources/IMG_8080.jpg)
 
 We got a website that gives a percentage value of correct HTTP headers, so to BurpSuite to modify HTTP headers
 ![Website in question](https://github.com/alexbravo17/SecEduCTF2024Writeup/blob/main/Week4/images/digitaldoppelganger1.png)
-![BurpSuite](https://github.com/alexbravo17/SecEduCTF2024Writeup/blob/main/Week4/images/digitaldoppelganger1.png)
+![BurpSuite](https://github.com/alexbravo17/SecEduCTF2024Writeup/blob/main/Week4/images/digitaldoppelganger2.png)
 
 So, check each header field to see if the value changes from 43%
 
